@@ -1,0 +1,13 @@
+.middleBox {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  background-color: rgb(120, 11, 11);
+  top:50%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+}
