@@ -1,0 +1,53 @@
+.n-wrapper{
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    padding: 15px;
+}
+
+.n-name{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.n-list{
+    flex: 10;   
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list>ul >li:hover{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.button{
+    border-radius: 35px;
+    border: none;
+    color:white;
+    font-size: 26px;
+    padding: 11px;
+    background: linear-gradient(180deg, rgb(49, 125, 158) 25%, #fbc 99%);
+
+}
