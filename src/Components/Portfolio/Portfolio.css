@@ -1,0 +1,90 @@
+.carousel-area {
+    background-image: linear-gradient(  -360deg,  rgb(20, 23, 25) 7.8%, rgb(0, 4, 9) 100.3% );
+    text-align: center;
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .carousel-slide {
+    padding-bottom: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-inner {
+    padding: 10px;
+  }
+  
+  /* swiper css */
+  #app {
+    height: 100%
+  }
+  
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 70%;
+    height: 70%;
+    z-index: 9;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(84, 84, 84, 0);
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    /* position: absolute; */
+  }
+  
+  .swiper-slide img {
+    background-color: rgb(239, 238, 236);
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #908f8f;
+    border-bottom: 0px;
+    padding: 5px; 
+    z-index: 9;
+  }
+  
+  .project-content {
+    border: 1px solid #908f8f;
+    border-top: 0px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* width: 100%; */
+    /* height: 20%; */
+  
+  }
+  
+  p {
+    margin: 5%;
+  }
+  
+  @media only screen and (max-width : 420px) {
+    .swiper {
+      width: 90%;
+      height: 65%;
+      
+    }
+  
+    .swiper-slide {
+      margin-top: 15%;
+    }
+  }
