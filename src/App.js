@@ -14,7 +14,8 @@ function App() {
       <Navbar/>
       <Background/>
       <Intro/>
-      {/* <Skills/> */}
+      <Skills/>
+      
     </div>
   );
 }
