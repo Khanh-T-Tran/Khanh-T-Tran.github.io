@@ -6,6 +6,8 @@ import Background from './Components/Background';
 import Intro from './Components/Intro';
 import Skills from './Components/Skills'
 import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact'
+import Footer from './Components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +19,8 @@ function App() {
       <Intro/>
       <Skills/>
       <Portfolio/>
-      
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
