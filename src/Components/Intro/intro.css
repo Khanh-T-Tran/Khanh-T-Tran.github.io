@@ -52,51 +52,8 @@
     height: 3rem;
 }
 
-/* .i-name {
-    display: flex;
-    flex-direction: column;
-   
-
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(207, 205, 205);
-    
-    left: 10%;
-    
-    font-size: 50px;
-    font-weight: 800;
-    opacity: 0.8;
-} */
-
-/* .i-name:hover {
-    opacity: 1;
-    cursor: pointer;
-} */
-
-
-/* 
-@keyframes move-twink-back {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: -10000px 5000px;
+@media only screen and (max-width:280px) {
+    .intro {
+        padding: 1rem;
     }
 }
-
-@keyframes move-cloud-back {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: -10000px 8000px;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    .text {
-        font-size: 30px;
-    }
-} */

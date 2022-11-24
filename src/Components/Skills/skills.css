@@ -16,8 +16,8 @@ body {
  }
  
  div.hero-image {
-    /* position: inherit; */
-    height: 100vh;
+    /* position: ; */
+    height: 90vh;
     width: 100%;
     background-image: linear-gradient(  -360deg,  rgb(20, 23, 25) 7.8%, rgb(0, 4, 9) 100.3%  );
  }
@@ -30,6 +30,7 @@ body {
     height: 50px;
     transform: rotate(-25deg) skew(25deg);   
     z-index: 3;
+    transform: scale(0.9)
  }
  
  .cube::before {
@@ -139,18 +140,22 @@ body {
     #mongo {
        margin-left: 15%;
        transform: scale(0.95);
+       
     }
     #express {
        margin-left: 35%;
        transform: scale(0.95);
+       
     }
     #react {
        margin-left: 55%;
        transform: scale(0.95);
+       
     }
     #nodejs {
        margin-left: 75%;
        transform: scale(0.95);
+       
     }
  }
  
@@ -170,4 +175,21 @@ body {
  div.card-title.h5{
     font-size: 15px;
  }
+ #mongo {
+       margin-top: 25%;
+       transform: scale(0.6);
+    }
+    #express {
+       margin-top: 25%;
+       transform: scale(0.6);
+    }
+    #react {
+       margin-top: 25%;
+       transform: scale(0.6);
+    }
+    #nodejs {
+       margin-top: 25%;
+       transform: scale(0.6);
+    }
+   
  }
